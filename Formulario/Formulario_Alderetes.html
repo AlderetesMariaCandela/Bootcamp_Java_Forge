@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Formulario1</title>
+    </head>
+    <body>
+        <h1>Mi Formulario de Registro</h1>
+        <form action="process.php" method="post">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+            </div>
+            <div>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+            </div>
+            <div>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div>
+                <label for="pw_confirm">Confirmar:</label>
+                <input type="password" id="pw_confirm" name="password_confirmacion">
+            </div>
+            <div>
+                <label for="cumpleaños">Cumpleaños:</label>
+                <input type="date" id="cumpleaños" name="cumpleaños">
+            </div>
+                <label for="hombre">Hombre</label>
+                <input type="radio" id="hombre" name="Sexo" value="Hombre">
+        
+            <label for="mujer">Mujer</label>
+            <input type="radio" id="mujer" name="Sexo" value="Mujer">
+            
+            <label for="otro">Otro</label>
+            <input type="radio" id="otro" name="Sexo" value="Otro">
+
+            <p>Una breve descripción de ti:</p>
+            <textarea name="descripcion"></textarea>
+
+            <p>Lenguaje favorito:</p>
+        
+            <select id="lenguaje" name="lenguaje">
+                <option value="" selected="selected">- Selected -</option>
+                <option value="javascript">JavaScript</option>
+                <option value="c++">C++</option>
+                <option value="c#">C#</option>
+            </select>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        
+
+        </form>
+    </body>
+</html>
