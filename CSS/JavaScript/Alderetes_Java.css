@@ -1,0 +1,78 @@
+#fondo{
+    width: 970px;
+    height: 570px;
+    background-color:hsl(218.18deg 55% 23.53%);
+    margin: 0 auto;
+    padding-top: 15px;
+    border-radius: 10;
+}
+#titulo{
+    width: 920px;
+    height: 50px;
+    background-color: hsl(357.74deg 62.35% 50%);
+    margin: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+#izquierda{
+    width: 120px;
+    height: 200px;
+    background-color: hsl(189.09deg 54.7% 35.49%);
+    display: inline-block;
+    margin: 10px;
+    padding-left: 15px;
+    vertical-align: top;
+    border-radius: 10px;
+}
+#izquierda > ul{
+    font-size: xx-small;
+}
+#principal{
+    width: 770px;
+    height: 400px;
+    background-color: hsl(210deg 41.67% 9.41%);
+    display: inline-block;
+    margin: 10px;
+    padding-left: 10px;
+    vertical-align: top;
+    border-radius: 10px;
+}
+h3{
+    color:hsl(208.09deg 55.29% 83.33%);
+}
+h1{
+    color:hsl(208.09deg 55.29% 83.33%);
+    margin:0px;
+}
+.texto{
+    color:hsl(208.09deg 55.29% 83.33%);
+    display: inline; 
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+#pie{
+    width: 920px;
+    height: 30px;
+    background-color:hsl(215.45deg 10.48% 41.18%);
+    display: inline-block;
+    margin: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.link{
+    color:hsl(191.52deg 60.98% 59.8%);
+    display: inline;
+    text-decoration: underline;
+    font-size: 10px;
+}
+ul{
+    color:hsl(191.52deg 60.98% 59.8%);
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+p span{
+    color:blueviolet;
+}
