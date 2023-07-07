@@ -1,0 +1,145 @@
+.conteiner{
+    width: 970px;
+    height: 790px;
+    background-color: #245076;
+}
+header{
+    width: 970px;
+    height: 100px;
+    display: inline-block;
+    background-color:green;
+}
+header img{
+    height: 100px;
+    display: inline-block;
+}
+.h{
+    display: inline-block;
+    width: 600px;
+    height: 100px;
+    vertical-align: top;
+}
+.tamaño{
+    display: inline-block;
+    width: 570px;
+    vertical-align: top;
+    margin-bottom: 0px;
+}
+.tamaño p{
+    font-size: x-small;
+    text-align: right;
+    color:#ffffff;
+}
+.tamaño a{
+    color:#ecc837;
+}
+.tamaño span{
+    color:black;
+}
+.h .busqueda{
+    display: inline-block;
+    width: 170px;
+    height: 40px;
+    margin-left: 400px;
+    background-color: #444444;
+    border-radius: 10px;
+}
+.busqueda input{
+    width: 100px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.busqueda button{
+    width: 30px;
+    height: 20px;
+    font-size: small;
+    color:#ffffff;
+    background-color: #245076;
+    border-radius: 2px;
+    border-color: #ffffff;
+}
+.menu ul{
+    background-color:#407bad ;
+    padding: 12px 20px 12px 20px;
+    width: 700px;
+    border-radius: 10px;
+    margin-left: 120px;
+    font-size: 20px;
+}
+.menu li{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.menuLeft{
+    display: inline-block;
+    width: 240px;
+    margin-left: 100px;
+    font-size: small;
+    vertical-align: top;
+}
+.menuLeft ul{
+    text-align: center;
+}
+.menuLeft li{
+    color:#ecc837;
+    width: 150px;
+    align-items: center;
+}
+li span{
+    color: #ffffff;
+    text-align: center;
+    
+}
+.main{
+    display: inline-block;
+    width: 510px;
+    text-align: center;
+    
+}
+.main p{
+    font-size: small;
+}
+.cursiva{
+    
+    font-style: oblique;
+    color:#ecc837;
+}
+.secondary{
+    width: 900px;
+    height: 210px;
+    background-color: #ffffff;
+    padding-left: 70px;
+}
+.content{
+    display: inline-block;
+    vertical-align: top;
+    width: 370px;
+    height: 170px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-top: solid #73a7d5;
+    font-size: small;
+    text-align: center;
+}
+.s{
+    color:#87b4db;
+}
+.footer{
+    text-align: center;
+    color:#6ca0cd;
+}
+.footer ul{
+    padding-left: 0px;
+    padding-top: 40px;
+}
+.footer li{
+    font-size: 15px;
+    margin-left: 30px;
+    display: inline-block;
+    text-decoration: none;
+}
+.footer p{
+    font-size: 10px;
+}
