@@ -1,0 +1,17 @@
+package com.alderetesmaria.licencia.repositories;
+
+import java.util.List;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.alderetesmaria.licencia.models.Persona;
+
+@Repository
+public interface PersonaRepo extends CrudRepository<Persona, Long>{
+
+	List<Persona> findAll();
+	
+	
+	List<Persona> findByLicenseIdIsNull();
+}
