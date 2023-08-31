@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+C:\Users\ignan\Desktop\SpringFundamentals\Lookify\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\662745236.index
+\lookify\src\main\java

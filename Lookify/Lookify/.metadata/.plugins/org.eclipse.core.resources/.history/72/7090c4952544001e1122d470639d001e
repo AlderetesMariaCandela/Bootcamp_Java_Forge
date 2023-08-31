@@ -1,0 +1,13 @@
+package com.cd.lookify.repositories;
+
+import java.util.List;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.cd.lookify.models.SongModel;
+
+public interface SongRepo extends CrudRepository<SongModel, Long>{
+
+	//Rewrite the method findAll()
+	List<SongModel> findAll();
+}

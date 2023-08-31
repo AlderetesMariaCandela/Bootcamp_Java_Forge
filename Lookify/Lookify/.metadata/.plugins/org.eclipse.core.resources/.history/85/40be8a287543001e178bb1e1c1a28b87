@@ -1,0 +1,11 @@
+package com.cd.lookify.models;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+
+@Entity
+@Table(name="song")
+public class SongModel {
+
+}

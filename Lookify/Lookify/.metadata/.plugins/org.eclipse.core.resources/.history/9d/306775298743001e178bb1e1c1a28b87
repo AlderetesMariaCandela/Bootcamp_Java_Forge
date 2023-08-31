@@ -1,0 +1,5 @@
+package com.cd.lookify.repositories;
+
+public interface SongRepo {
+
+}

@@ -1,0 +1,22 @@
+package com.cd.lookify.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cd.lookify.models.SongModel;
+import com.cd.lookify.repositories.SongRepo;
+
+@Service
+public class SongService {
+
+	@Autowired
+	private SongRepo songRepo;
+	
+	public List<SongModel> allSongs(){
+		return songRepo.findAll() ;
+	}
+	
+	
+}

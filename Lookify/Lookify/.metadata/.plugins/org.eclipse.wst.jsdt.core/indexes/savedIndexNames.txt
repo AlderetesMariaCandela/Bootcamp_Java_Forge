@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\ignan\Desktop\SpringFundamentals\Lookify\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3776512107.index
+2015545206.index
+1838221618.index
+3891565897.index
+3238380144.index
+662745236.index
+2042155844.index
